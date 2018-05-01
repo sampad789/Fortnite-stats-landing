@@ -4,7 +4,7 @@ import axios from 'axios';
 import {Icon,Container,Header,Content,Left } from 'native-base'
 
 export default class Stats extends React.Component {
-  static navigationOptions = { title :'Stats',};
+  static navigationOptions = { title :'Stats       ',};
   
   constructor(props) {
     super(props);
@@ -90,18 +90,7 @@ export default class Stats extends React.Component {
         <Text>
      {"\n"}
         </Text>
-        <Text>
-     {"\n"}
-        </Text>
-        <Text>
-     {"\n"}
-        </Text>
-        <Text>
-     {"\n"}
-        </Text>
-        <Text>
-     {"\n"}
-        </Text>
+        
         
 
        {itemRows}

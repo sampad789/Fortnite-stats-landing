@@ -3,7 +3,7 @@ import { StyleSheet, Text, View,Button,Alert,Image } from 'react-native';
 import {Icon,Container,Header,Content,Left } from 'native-base'
 
 export default class Landing extends React.Component {
-    static navigationOptions = {title :'Landing',};
+    static navigationOptions = {title :'Landing                    ',};
   constructor(props){
   super(props)
   this.state = {
