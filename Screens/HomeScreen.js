@@ -3,6 +3,7 @@ import { View, Text,StyleSheet,Button ,Image } from 'react-native';
 import {StackNavigator} from 'react-navigation' ;
 import Stats from './Stats'
 import Landing  from './Landing'
+import Recent from './Recent'
 import {Icon,Container,Header,Content,Left,Right, Title } from 'native-base'
 export default class HomeScreen extends Component {
 
@@ -58,9 +59,9 @@ fetchNews = ()=>{
         <Text>
      {"\n"}
         </Text>
-        <Text>
-     {"\n"}
-        </Text>
+ 
+        <Button onPress={() => navigate('Recent')} title='Recent News'/>
+       
         <Text>
      {"\n"}
         </Text>

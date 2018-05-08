@@ -25,6 +25,8 @@ Alert.alert('Your Landing spot is : ' + finalSpot);
     return (
       
       <View style={styles.container}>
+      <Header>
+         </Header>
       <Text style={{fontWeight: 'bold' ,fontSize : 30,textAlign :'justify'}}>
       Where You Droppin boys??? 
       <Text>
